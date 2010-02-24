@@ -1,0 +1,16 @@
+AWS DOT Tools <http://github.com/mbabineau/aws_dot_tools> is a script suite for generating DOT-format graphs.
+
+Requirements:
+- Two Python packages must be installed:
+  - Boto: http://code.google.com/p/boto/ - interface for Amazon Web Services
+  - GvGen: http://software.inl.fr/trac/wiki/GvGen - class to generate DOT files
+- Boto must be configured (AWS key ID and secret key in boto.cfg)
+
+Rendering DOT graphs:
+- Web-based tool: http://graph.gafol.net/
+- Mac tools:
+  - GraphViz (free): http://www.pixelglow.com/graphviz/
+  - OmniGraffle: http://www.omnigroup.com/applications/OmniGraffle/
+- A big list of DOT resources is available here: http://www.graphviz.org/Resources.php
+
+Copyright (c) 2010 Mike Babineau <michael.babineau@gmail.com>. All rights reserved.
